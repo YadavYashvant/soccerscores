@@ -70,12 +70,12 @@ body{
     font-weight: bold;
     margin-top: 50px;
     letter-spacing: 1px;
-    font-size: large;
-    line-height: 25px;
+    font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-color: rgb(161, 171, 175);
     align-items: center;
+    color: rgb(16, 26, 28);
     position:initial;
     border-radius: 30px;
     padding: 20px;
