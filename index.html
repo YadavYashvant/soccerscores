@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <ul>
+        <li class="active">Home</li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+    <h1 id="heading">SOCCERSCORES</h1>
+    </p>
+    <p class="center">
+        Welcome to our website, the ultimate destination for live football scores from around the globe!<br><br>
+         Stay updated with the latest action as it unfolds on the pitch. <br>
+         Whether you're a die-hard fan or just looking to keep track of your favorite teams, we've got you covered. <br><br>
+         Our real-time scoring system ensures you never miss a beat, providing minute-by-minute updates from matches across various leagues and tournaments.<br><br>
+         From the English Premier League to La Liga, Serie A to Bundesliga, and beyond, we bring you the scores, goals, <br><br>
+         So, join us now and experience the excitement of football in real-time. Let the games begin!<br>
+    </p>
+    <div id="vidsoccer"><iframe src="https://www.scorebat.com/embed/" frameborder="0" width="400" height="760" allowfullscreen allow='autoplay; fullscreen' style="width:50%;height:760px;overflow:hidden;display:block;" class="_scorebatEmbeddedPlayer_"></iframe><script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://www.scorebat.com/embed/embed.js?v=arrv'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'scorebat-jssdk'));</script></div>
+    <div id="scoresoccer"><iframe src="https://www.scorebat.com/embed/livescore/" frameborder="0" width="600" height="760" allowfullscreen allow='autoplay; fullscreen' style="width:100%;height:760px;overflow:hidden;display:block;" class="_scorebatEmbeddedPlayer_"></iframe><script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://www.scorebat.com/embed/embed.js?v=arrv'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'scorebat-jssdk'));</script></div>
+
+    <button type="button" id="showtime"
+    onclick="document.getElementById('demo').innerHTML = Date()">Show time</button>
+    <p id="demo"></p>
+    <p id="letsgo" onclick="fun1()">
+        LET ME SHOW YOU SOMETHING !!
+    </p>
+    <button type="submit" id="print" onclick="window.print()" >
+        PRINT
+    </button>
+</body>
+</html>

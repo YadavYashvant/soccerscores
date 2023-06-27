@@ -1,0 +1,109 @@
+#showtime{
+    background-color: aqua;
+    size: 50px;
+    padding: 10px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration-style: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+#letsgo{
+    margin-left: 10px;
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+#letsgo:hover{
+    color: #0a5d72;
+    cursor: pointer;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #3d3737;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    display: block;
+    color: #e7e0e0;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.active {
+    background-color: #0a5d72;
+}
+li:hover{
+    background-color: #655f5f;
+    color: white;
+}
+#heading{
+    text-align: center;
+    margin-top: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: beige;
+}
+#demo{
+    margin-top: 30px;
+    font-size: 36px;
+    padding: 50px;
+    color: rgb(195, 156, 156);
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.center{
+    font-weight: bold;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-size: large;
+    line-height: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(161, 171, 175);
+    align-items: center;
+    position:initial;
+    border-radius: 30px;
+    padding: 20px;
+}
+.center:hover{
+    animation: ease-in cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    background-color: #c2c4c4;
+}
+#print{
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 12px;
+    font-weight: 800;
+    background-color: chocolate;
+}
+#print:hover{
+    background-color: rgb(193, 168, 150);
+}
+#showtime:hover{
+    background-color: rgb(148, 197, 197);
+}
+button:hover{
+    background-color: rgb(192, 217, 217);
+    color: rgba(50, 47, 47, 0.848);
+    cursor: pointer;
+}
+body{
+    margin-left: 0;
+}
